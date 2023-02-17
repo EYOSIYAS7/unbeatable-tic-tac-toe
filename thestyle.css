@@ -1,0 +1,35 @@
+td {
+  border: 3px solid;
+  height: 100px;
+  width: 100px;
+  font-family: cursive;
+  font-size: 70px;
+  background: #000;
+}
+.cont {
+  position: fixed;
+
+  left: 50%;
+}
+.cont {
+  transform: translate(-60%);
+}
+table {
+  margin-left: 100px;
+}
+td {
+  border-bottom: 0;
+  border-right: 0;
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table td:first-child {
+  border-left: 0;
+}
+body {
+  background-color: rgb(80, 80, 80);
+}
+#intro {
+  font-family: cursive;
+}
